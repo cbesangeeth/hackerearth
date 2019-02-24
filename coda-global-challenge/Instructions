@@ -1,0 +1,36 @@
+Instruction to deployment:
+
+Teach stack:
+React
+Spring boot
+MySql
+
+Steps to run the application:
+
+API:
+1. Import "spotify_coda_global_challenge.sql" into MySql
+2. cd "top-spotify"
+3. Run "mvn clean"
+4. Run "mvn spring-boot:run"
+
+Completed API's:
+
+topSongs:
+http://localhost:8082/topSongs?size=50
+
+searchSongs: (By Song Name or Artists)
+http://localhost:8082/searchSongs?searchKey=star
+
+UI:
+
+1. cd "top-spotify-ui"
+2. type "yarn" to install package's
+3. Type "yarn start" to run the react app.
+4. Launch 'http://localhost:3000/' in the browser
+
+GIT REPO:
+https://github.com/cbesangeeth/hackerearth/tree/master/coda-global-challenge
+
+Notes:
+Hi there!, I'm Sangeeth kumar (http://cbesangeeth.github.io). I'm having strong backend knowledge (JAVA and NodeJS) and practicing
+frontend recently. Did basic HTML, JS and CSS through online courses.
