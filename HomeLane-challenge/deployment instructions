@@ -1,0 +1,25 @@
+Instruction to deployment:
+
+Teach stack:
+Spring boot
+MySql
+
+Steps to run the application:
+1. Import "FIFA_homelane_challenge.sql" into MySql
+2. Extract "team-selection-api.zip"
+3. cd "team-selection-api"
+4. Run "mvn clean"
+5. Run "mvn spring-boot:run"
+
+
+Completed API's:
+
+get_player_info:
+http://localhost:8082/get_player_info?playerName=Iniesta,Casill
+
+get_player_info: (Multiple)
+http://localhost:8082/get_player_info?playerName=Iniesta
+
+get_club_player_list
+http://localhost:8082/get_club_player_list?clubName=Napoli
+
